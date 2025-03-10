@@ -16,8 +16,8 @@ MARS_MULTIPLE = 0.378
 
 
 def main():
-   earth_weight = input("Enter your weight on earth: ")
-   earth_weight_float = float(earth_weight)
+   earth_weight_str = input("Enter your weight on earth: ")
+   earth_weight_float = float(earth_weight_str)
    mars_weight = earth_weight_float * MARS_MULTIPLE
    print('The equivalent weight on Mars: ' + str(mars_weight))
 
